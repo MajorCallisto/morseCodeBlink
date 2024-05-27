@@ -89,8 +89,8 @@ void setup()
 
 void loop()
 {
-  testCharacter();
-  //transmitMessage((char*)message.c_str());
+  //testCharacter();
+  transmitMessage((char*)message.c_str());
   delay(2000);
 }
 void testCharacter(){
@@ -115,7 +115,6 @@ void testCharacter(){
   
   kern();
 }
-/*
 void transmitMessage(char *msg){
   
    while (*msg){
